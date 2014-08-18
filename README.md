@@ -14,7 +14,7 @@ var Sesame = require('aws-sesame');
 
 // config options are any listed here:
 // http://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/EC2.html#constructor-property
-var s = new Sesame({sslEnabled: true, region: 'us-east-1', accessKeyId: 'a key id', secretAccessKey: 'a key'});
+var s = new Sesame({region: 'us-east-1', accessKeyId: 'keyid', secretAccessKey: 'key'});
 
 // revoke access
 // params: security group, protocol type, source ip, port start, port end, callback
