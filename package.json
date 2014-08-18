@@ -1,0 +1,22 @@
+{
+  "name": "aws-sesame",
+  "version": "0.0.0",
+  "description": "Open/close access to servers on AWS by IP like a boss",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aws",
+    "vpn"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bmuller/aws-sesame.git"
+  },
+  "author": "Brian Muller <bamuller@gmail.com> (http://findingscience.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": ">= 2.0.14"
+  }
+}
