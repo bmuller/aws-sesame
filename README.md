@@ -28,13 +28,13 @@ s.revokeAccess('sg-1123123', 'tcp', "1.2.3.4", 22, 22, function(r) {
 // returns: true if successful, false otherwise
 s.grantAccess('sg-11231223', 'tcp', "1.2.3.4", 22, 22, function(r) {
 		 console.log(r);
-	       });
+	      });
 
 
 // test access
 // params: security group, protocol type, source ip, port start, port end, callback
 // returns: true if access exists, false otherwise
-s.grantAccess('sg-11231223', 'tcp', "1.2.3.4", 22, 22, function(r) {
+s.hasAccess('sg-11231223', 'tcp', "1.2.3.4", 22, 22, function(r) {
 		 console.log(r);
-	       });
+	    });
 ```

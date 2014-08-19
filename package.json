@@ -1,6 +1,6 @@
 {
   "name": "aws-sesame",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Open/close access to servers on AWS by IP like a boss",
   "main": "lib/index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": ">= 2.0.14"
+  },
+  "scripts": {
+    "prepublish": "coffee -b --no-header -o ./lib/ ./src/*.coffee"
   }
 }
